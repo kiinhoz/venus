@@ -209,3 +209,6 @@ header.sticky{
     right: 0;
     font-size: 20px;
 }
+.coracao-icon:hover{
+    color: red;
+}
