@@ -229,5 +229,45 @@ header.sticky{
     color: #151515;
     font-size: 14px;
     font-weight: 600;
-    
+
+}
+
+.cliente-avaliacao{
+    background-color: #f3f4f6;
+}
+
+.avaliacao{
+    text-align: center;
+}
+
+.avaliacao h3{
+    color: #111;
+    font-size: 25px;
+    text-transform: capitalize;
+    text-align: center;
+    text-align: center;
+    font-weight: 700;
+}
+
+.avaliacao h2{
+    font-size: 22px;
+    color: #000;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 2px;
+}
+
+.avaliacao p{
+    color:#707070;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+
+.avaliacao img{
+    width: 100px;
+    height: auto;
+    border-radius: 50px;
+    margin: 10px 0;
 }
