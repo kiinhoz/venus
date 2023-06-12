@@ -73,7 +73,9 @@ header {
     z-index: 10001;
     cursor: pointer;
 }
-
+.hamb{
+    display: none;
+}
 section{
     padding: 5% 8%;
 
@@ -436,5 +438,8 @@ header.sticky{
     }
     .navmenu.open{
         right: 0;
+    }
+    .hamb{
+        display: block;
     }
 }
