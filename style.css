@@ -91,22 +91,7 @@ section{
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
 }
-/* Estilos para o iPhone 12 Pro */
-@media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
-    .main-home{
-    }
 
-/* Estilos para o iPhone 12 Pro */
-}
-
-@media screen and (max-width: 600px) {
-    .main-home{
-        height: 45vh;
-        max-width: 100%;
-        background-image: url(img/banner-12.png);
-        background-size: cover;
-    }
-}
 
 .main-text h5{
     color: var(--primaryColor);
@@ -460,3 +445,23 @@ header.sticky{
     }
 }
 
+/* Estilos para o iPhone 12 Pro */
+@media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
+    .produtos{
+        max-width:100%;
+        flex-direction:column;
+    }
+        .main-home{
+        height: 45vh;
+        max-width: 100%;
+        background-image: url(img/banner-12.png);
+        background-size: cover;
+        }
+    }
+}
+/* Estilos para o iPhone 12 Pro */
+
+
+@media screen and (max-width: 600px) {
+
+}
