@@ -91,6 +91,14 @@ section{
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
 }
+/* Estilos para o iPhone 12 Pro */
+@media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
+    .main-home{
+    display: none;
+    }
+
+/* Estilos para o iPhone 12 Pro */
+}
 
 @media screen and (max-width: 600px) {
     .main-home{
