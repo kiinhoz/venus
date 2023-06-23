@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+:root {
+  --primary: #c24682;
+  --black: #000;
+  --white: #fff;
+  --light-black: #666;
+  --hover: rgba(244, 244, 244, 0.8);
+  --bg: #f9f9f9;
+  --border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  --button: linear-gradient(to right, #bbd2c5, #c24682);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f2f2f2;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+.container {
+  padding: 0.7rem;
+  display: flex;
+  justify-content: first baseline;
+  margin-left: 12rem;
+}
+.product-separator {
+  margin-left: 0.1rem;
+}
+
+.product-images {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.reference-image {
+  margin-bottom: 1rem;
+  margin-right: 2rem;
+  border: 1px solid #ddd;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.reference-image:hover,
+.reference-image.active {
+  border-color: #0000007e;
+}
+
+.reference-image img {
+  width: 65px;
+  height: 83px;
+}
+
+.product-info {
+  display: flex;
+  align-items: flex-start;
+}
+
+.product-image {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  cursor: zoom-in;
+}
+
+.product-image img {
+  width: 100%;
+  max-width: 23rem;
+  height: 28rem;
+  cursor: pointer;
+  border: var(--border);
+  padding: 5px;
+  border-radius: 4px;
+  transition: transform 0.7s ease-in-out;
+}
+
+.product-image.zoomed img {
+  transform: scale(3);
+}
+
+.product-description {
+  margin-left: 6rem;
+}
+
+.product-description h2 {
+  margin-bottom: 1rem;
+}
+
+.product-description p {
+  margin-bottom: 0.5rem;
+}
+
+/* Estilo para os botões de tamanhos */
+/* Estilo para os botões de tamanhos */
+.product-sizes button {
+  background-color: var(--primary);
+  color: var(--white);
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Estilo para os botões de tamanhos quando o mouse passar por cima */
+.product-sizes button:hover {
+  background-color: #ff98b0;
+}
+
+
+.product-price {
+  margin-top: 2rem;
+}
+
+
+.original-price {
+  font-size: 14px;
+  color: black;
+}
+
+.original-price strong {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+
+.discounted-price {
+  font-size: 3rem;
+  color:var(--primary);
+  font-weight: bold;
+
+}
+
+.installment-price {
+  font-size: 14px;
+  color: #000;
+}
+
+.installment-value {
+  font-weight: bold;
+}
+
+.savings {
+  font-size: 16px;
+  font-style: italic;
+}
